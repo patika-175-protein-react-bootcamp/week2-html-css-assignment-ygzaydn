@@ -53,7 +53,7 @@ body {
   left: 0;
   padding-top: 0.5rem;
   border-top: 1px solid white;
-  max-width: 20vw;
+  max-width: 40vw;
 }
 
 .card > p {
@@ -100,12 +100,13 @@ body {
   .pagination {
     padding: 0 2rem;
     margin-bottom: 5rem;
+    justify-content: center;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .marvelText {
     height: 5rem;
@@ -113,4 +114,5 @@ body {
   .header {
     margin-bottom: 5rem;
   }
+
 }
